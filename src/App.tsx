@@ -1,24 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {I18nextProvider} from 'react-i18next';
+import i18n from './locales/i18n';
+import RoutesApp from './routers';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <I18nextProvider i18n={i18n}>
+        <RoutesApp />
+      </I18nextProvider>
     </div>
   );
 }

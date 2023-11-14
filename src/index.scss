@@ -1,0 +1,92 @@
+@import "src/sass/_variables";
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+// custom css pagination
+.ant-pagination {
+  display: flex;
+  align-items: center;
+}
+.ant-pagination li .ant-pagination-item-link {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-pagination .ant-pagination-item {
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0px;
+  border-radius: 0;
+}
+.ant-pagination-prev,
+.ant-pagination-next {
+  width: 4rem !important;
+  height: 4rem !important;
+  background-color: #fff;
+  border-radius: 0 !important;
+  margin: 0 !important;
+}
+
+.ant-pagination .ant-pagination-item-active {
+  background: #1570ef;
+}
+
+.ant-pagination .ant-pagination-item a {
+  color: #344054;
+  font-size: 1.4rem;
+}
+.ant-pagination .ant-pagination-item.ant-pagination-item-active a {
+  color: #fff;
+}
+.ant-select-show-search {
+  height: 4rem;
+}
+.ant-table-cell {
+  height: 4rem !important;
+  padding-left: 5px !important;
+}
+
+.ant-table-thead {
+  th.ant-table-cell {
+    padding: 0 !important;
+    text-align: center !important;
+    background-color: #fff !important;
+  }
+}
+.ant-table-tbody {
+  td.ant-table-cell {
+    padding: 0 0 0 1rem !important;
+    text-align: center !important;
+    color: $gray-700;
+  }
+  td.ant-table-cell:nth-child(1) {
+    text-align: left !important;
+  }
+}
+.ant-modal-close {
+  display: none;
+}
+.wrapperPage {
+  height: 90vh;
+  overflow-y: auto;
+}

@@ -1,0 +1,64 @@
+//Colors variables
+// Language: scss
+// Path: src\sass\_variables.scss
+$primary-color: #1890ff;
+$secondary-color: 0054a6;
+
+//Responsive variables
+// Language: scss
+// Path: src\sass\_variables.scss
+$mobile-width: 320px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+$large-desktop-width: 1440px;
+
+// Gray
+$gray-50: #f0f1fa;
+$gray-100: #d0d3d9;
+$gray-200: #b9bdc7;
+$gray-300: #989fad;
+$gray-400: #85859d;
+$gray-500: #667085;
+$gray-600: #5d6679;
+$gray-700: #48505e;
+$gray-800: #383e49;
+$gray-900: #2b2f38;
+
+// Bule
+
+$blue-50: #e6f1ff;
+$blue-100: #b0d3ff;
+$blue-200: #8abdff;
+$blue-300: #549fff;
+$blue-400: #338dff;
+$blue-500: #0070ff;
+$blue-600: #0066e8;
+$blue-700: #0050b5;
+$blue-800: #003e8c;
+$blue-900: #002f6b;
+
+// Red
+$red-50: #f4ebec;
+$red-100: #dec1c3;
+$red-200: #cda3a6;
+$red-300: #b7787e;
+$red-400: #a95e65;
+$red-500: #93363e;
+$red-600: #863138;
+$red-700: #68262c;
+$red-800: #511e22;
+$red-900: #3e171a;
+
+$warning-50: #fffaeb;
+$success-50: #ecfdf3;
+$error-50: #fef3f2;
+$warning-700: #b54708;
+$success-700: #027a48;
+$error-700: #b42318;
+
+$border-blue: #eaecf0;
+
+$bg-close: rgba(255, 69, 58, 0.1);
+$txt-close: rgba(255, 69, 58, 1);
+$purple-600: #6938ef;
+$pink-600: #dd2590;

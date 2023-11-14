@@ -1,0 +1,22 @@
+.wapperModal{
+    :global{
+        .ant-modal-content{
+            padding: 0.8rem;
+            .ant-modal-close{
+                top: 0.8rem;
+                background-color: unset;
+                span{
+                    color: #0084ff;
+                    font-size: 1.2rem;
+                }
+            }
+            .ant-modal-header{
+                .ant-modal-title{
+                    line-height: 2rem;
+                    border-bottom: 1px solid #e6e5ea;
+                    color: #383561;
+                }
+            }
+        }
+    }
+}

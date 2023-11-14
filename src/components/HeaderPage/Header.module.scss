@@ -1,0 +1,29 @@
+.wrapperHeaderPage {
+    width: 100%;
+    height: 78px;
+    padding: 16px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    .titlePage {
+        width: max-content;
+        font-size: 2.4rem;
+        font-weight: 600;
+        line-height: 28px;
+        color: #000;
+    }
+    .listBtn{
+        display: flex; 
+        align-items: center;
+        gap: 0.5rem;
+        button{
+            font-weight: 600;
+            font-size: 1.4rem;
+            box-shadow: none;
+            border: none;
+            border-radius: 8px;
+            height: 3.6rem;
+        }
+    }
+}
