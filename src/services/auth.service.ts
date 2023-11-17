@@ -5,7 +5,7 @@ import {action, observable, runInAction} from 'mobx';
 import {storageKeys} from 'constants/storage-keys';
 import jwtDecode from 'jwt-decode';
 import {ResponseDTO} from 'shared/dto/base.dto';
-import {LoginDTO} from 'shared/dto/auth.dto';
+import {ForgotPassDTO, LoginDTO, ResetPassDTO} from 'shared/dto/auth.dto';
 import Container, {Service} from 'typedi';
 import {HttpService} from './http.service';
 import {User} from 'shared/business/user';
@@ -75,5 +75,14 @@ export class AuthService {
   }
   isSignedIn(): boolean {
     return getCookie(storageKeys.USER_ACCESS_TOKEN) !== null;
+  }
+  public async getForgotPass(
+    forgotPassDTO: ForgotPassDTO,
+  ): Promise<ResponseDTO> {
+    return this.httpService.request(forgotPassDTO);
+  }
+
+  public async getResetPass(resetPassDTO: ResetPassDTO): Promise<ResponseDTO> {
+    return this.httpService.request(resetPassDTO);
   }
 }

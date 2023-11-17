@@ -1,0 +1,31 @@
+@import "src/sass/_variables.scss";
+
+.headingValidate {
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: $gray-500;
+}
+
+.verifyPassWord {
+    color: $reset-password-verify;
+}
+
+.checkVerify {
+    color: $reset-password-verify-icon;
+}
+
+.UnverifyPassword {
+    color: $reset-password-unverify;
+}
+
+.textMessage {
+    margin-top: 3.2rem;
+    color: $login-primary-color;
+    font-size: 2.5rem;
+}
+
+.checkFilterWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}

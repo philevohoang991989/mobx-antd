@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <ConfigProvider theme={{token: {colorPrimary: '#1890FF'}}}>
+    <ConfigProvider theme={{token: {colorPrimary: '#93363E'}}}>
       <App />
     </ConfigProvider>
   </React.StrictMode>,

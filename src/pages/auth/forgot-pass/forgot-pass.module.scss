@@ -1,0 +1,13 @@
+@import "src/sass/_variables";
+@import "../styles/styles.modal.scss";
+.formForgot {
+  height: 28rem !important;
+  .btnSubmit {
+    margin-top: 0;
+  }
+  .btnBackSignIn {
+    background-color: #fff;
+    color: $gray-700;
+    border-color: $border-blue;
+  }
+}

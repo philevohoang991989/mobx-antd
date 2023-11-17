@@ -1,0 +1,11 @@
+@import "src/sass/_variables";
+@import "../styles/styles.modal.scss";
+
+.titlePage {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: $gray-900;
+}
+.formReset {
+  height: auto;
+}

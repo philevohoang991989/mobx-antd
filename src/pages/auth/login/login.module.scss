@@ -1,0 +1,21 @@
+@import "src/sass/variables.scss";
+@import "../styles/styles.modal.scss";
+
+.formLogin {
+    .actionForm {
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.forgotPassword {
+    font-size: 1.6rem;
+    color: $gray-500;
+}
+.checkBox {
+    span {
+        color: $gray-900 !important;
+        font-size: 1.6rem;
+    }
+}

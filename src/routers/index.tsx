@@ -37,6 +37,28 @@ const publicRoutes: RouteType[] = [
       },
     ],
   },
+  {
+    path: PageRoute.FORGOT_PASSWORD,
+    element: lazyLoadRoute('Base'),
+    children: [
+      {
+        index: true,
+        title: titlePage('Forgot password'),
+        element: lazyLoadRoute('auth/forgot-pass'),
+      },
+    ],
+  },
+  {
+    path: PageRoute.RESET_PASSWORD,
+    element: lazyLoadRoute('Base'),
+    children: [
+      {
+        index: true,
+        title: titlePage('New password'),
+        element: lazyLoadRoute('auth/reset-pass'),
+      },
+    ],
+  },
 ];
 const privateRoutes: RouteType[] = [
   {
